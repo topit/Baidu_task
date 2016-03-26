@@ -41,6 +41,7 @@ p{
 	background-color: #BCBFB6;
 	margin: 0 0;
 	padding: 10px;
+	/*overflow: hidden;*/
 }
 
 .content h2{
@@ -54,13 +55,26 @@ p{
 	max-height:100%;
 }
 
-.first-article,.second-article, .thrid-article, .last-article, .sidebar{
+/*.wrap{
+	display: inline;
+	float: right;
+}*/
+
+.first-article,.second-article, .thrid-article, .last-article{
 	background-color: white;
-	margin: 10px 16%;
+	/*margin: 10px 16%;*/
+	margin:10px 460px 10px 20px;
 	padding: 1%;
 	box-shadow: 5px 5px 5px #7D7F79;
 }
 
+.sidebar{
+	background-color: white;
+	margin:10px 20px;
+	padding: 1%;
+	width: 380px;
+	box-shadow: 5px 5px 5px #7D7F79;
+}
 .thrid-article li img{
 	width: 100px;
 	height: 100px;
@@ -102,10 +116,12 @@ ol li{
 .last-article table tr:nth-child(6){
 	background-color: #7F727F;
 }
-
+/*侧栏*/
 .sidebar{
 	/*paddi: ;ng-bottom: 0;*/
 	/*margin-bottom: 0;*/
+	display: inline;
+	float: right;
 }
 
 .sidebar h3{
