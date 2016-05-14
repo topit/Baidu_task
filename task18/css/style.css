@@ -1,0 +1,20 @@
+#left-out{
+  margin-left: 50px;
+}
+
+#stack{
+  /*display: fiex;*/
+}
+
+.wrap{
+  float: left;
+  display: inline-block;;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  margin-left: 2px;
+  color: white;
+  font-size: 40px;
+  vertical-align: center;
+  text-align: center;
+}
