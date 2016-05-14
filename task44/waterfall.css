@@ -1,0 +1,55 @@
+body {
+  font-family: Helvetica, Tahoma, Arial, STXihei, "åŽæ–‡ç»†é»‘", "Microsoft YaHei", "å¾®è½¯é›…é»‘", SimSun, "å®‹ä½“", Heiti, "é»‘ä½“", sans-serif;
+  font-size: 14px;
+  margin: -17.5px 0 0 0;
+  padding: 0;
+  overflow: auto;
+}
+
+/* button */
+header {
+  margin: 0;
+  text-align: center;
+}
+.github {
+  margin: 10px;
+}
+
+/* display */
+.display {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+
+/* waterfall custom style*/
+.waterfall {
+  overflow: auto;
+  margin:0 auto;
+  width: 75%;
+}
+.waterfallColumn {
+  box-sizing: border-box;
+  padding: 8px;
+}
+.waterfallBox {
+  border: 1px #ccc solid;
+  margin-top: 16px;
+}
+
+
+/* use with waterfall.js */
+.waterfallColumn {
+  float: left;
+}
+.waterfall img {
+  width: 100%;
+}

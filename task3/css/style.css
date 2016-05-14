@@ -3,7 +3,8 @@
 	background-color: #eee;
 	border: #999;
 	margin: 20px;
-	min-height: 415px;
+	/*min-height: 415px;*/
+    overflow: hidden;
 	height: auto;
 /*	box-shadow: 5px 5px 5px #7D7F79;
 	border-radius: 10px;*/
